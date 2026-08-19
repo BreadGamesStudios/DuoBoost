@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Duolingo Auto</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🦜 Duolingo Auto</h1>
+    <div class="stats">
+      <div>Lições: <span id="lessonsCount">0</span></div>
+      <div>Gemas: <span id="gemasCount">0</span></div>
+      <div>XP: <span id="xpCount">0</span></div>
+    </div>
+    <div class="controls">
+      <button id="startBtn">⚡ Iniciar</button>
+      <button id="stopBtn">⏹️ Parar</button>
+    </div>
+    <div class="settings">
+      <label>Lições por execução: <input type="number" id="lessonsInput" value="10" min="1" max="50"></label>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
